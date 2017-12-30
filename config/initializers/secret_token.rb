@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Fobth::Application.config.secret_key_base = '491064a364877fb19b6a2994e909412ff17557cf8febfdc83c23305d8d1f13262563fbe349c013733c2c1bde90fc203cbf7c509e3b8d19e00d57f7d3f2852454'
+Doiectp::Application.config.secret_key_base = '491064a364877fb19b6a2994e909412ff17557cf8febfdc83c23305d8d1f13262563fbe349c013733c2c1bde90fc203cbf7c509e3b8d19e00d57f7d3f2852454'

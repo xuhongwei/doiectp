@@ -1,4 +1,4 @@
-Fobth::Application.routes.draw do
+Doiectp::Application.routes.draw do
   
   devise_for :admins
   devise_for :users, :controllers => {:omniauth_callbacks => "authentications"}

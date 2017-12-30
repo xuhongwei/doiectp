@@ -5,8 +5,8 @@ require 'mina/rvm'
 
 set :rails_env, 'production'
 set :domain, '139.162.125.73' 
-set :deploy_to, '/home/rails/fobth.com' 
-set :repository, 'https://github.com/xuhongwei/fobth.git'
+set :deploy_to, '/home/rails/doiectp.com' 
+set :repository, 'https://github.com/xuhongwei/doiectp.git'
 set :branch, 'master'
 
 set :shared_paths, ['config/database.yml', 'log', 'public/system','public/ckeditor_assets']
