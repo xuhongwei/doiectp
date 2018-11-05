@@ -4,7 +4,7 @@ require 'mina/git'
 require 'mina/rvm'
 
 set :rails_env, 'production'
-set :domain, '139.162.125.73' 
+set :domain, '45.33.42.240' 
 set :deploy_to, '/home/rails/doiectp.com' 
 set :repository, 'https://github.com/xuhongwei/doiectp.git'
 set :branch, 'master'
