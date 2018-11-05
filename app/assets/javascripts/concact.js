@@ -4,9 +4,9 @@ $(this).ready(function($) {
   function map_init(){
     var geocoder;
     var map;
-    var address = "天津 凯立天香家园";
+    var address = "杭州市萧山区大江东产业集聚区经五路3018号";
     geocoder = new google.maps.Geocoder();
-    var latlng = new google.maps.LatLng(39.13077,117.1577);
+    var latlng = new google.maps.LatLng(30.291428,120.597641);
     var myOptions = {
       zoom: 16,
       center: latlng,
@@ -18,7 +18,7 @@ $(this).ready(function($) {
       position: map.getCenter()
     });
     var infowindow = new google.maps.InfoWindow();
-    infowindow.setContent('<b>HIGHTECH PRINTING INDUSTRIAL</b>');
+    infowindow.setContent('<b>DOIECTP</b>');
     google.maps.event.addListener(marker, 'click', function() {
     infowindow.open(map, marker);
     });
